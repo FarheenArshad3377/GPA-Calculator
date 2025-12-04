@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GPA Calculator</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Particles background -->
+  <div id="tsparticles"></div>
+
+  <!-- Main form box -->
+  <div class="mainBox">
+    <form>
+      <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Semester No</label>
+        <input type="number" class="form-control" id="semesterNo" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Total Subject</label>
+        <input type="number" class="form-control" id="totalSubject" required>
+      </div>
+      <button type="submit" class="btn btn-primary button-style" id="btnsubmit">Submit</button>
+    </form>
+    <div id="subjectbox"></div>
+  </div>
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <span id="closePopup" class="close-btn">&times;</span>
+    <h2>Your Details</h2>
+    <p id="popupText"></p>
+  </div>
+</div>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- tsParticles (global version, works without modules) -->
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@1.18.11/dist/tsparticles.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tsparticles-engine@2/tsparticles.engine.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
